@@ -144,10 +144,12 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="AlgorithmClient.h" />
+    <ClInclude Include="BinarySearch.h" />
     <ClInclude Include="BubbleSortStrategy.h" />
     <ClInclude Include="HeapSortStrategy.h" />
     <ClInclude Include="IAlgorithm.h" />
     <ClInclude Include="InsertionSortStrategy.h" />
+    <ClInclude Include="ISearchStrategy.h" />
     <ClInclude Include="ISortingAlgorithm.h" />
     <ClInclude Include="ISortStrategy.h" />
     <ClInclude Include="MergeSortStrategy.h" />
@@ -158,9 +160,9 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="AlgorithmClient.cpp" />
+    <ClCompile Include="BinarySearch.cpp" />
     <ClCompile Include="BubbleSortStrategy.cpp" />
     <ClCompile Include="HeapSortStrategy.cpp" />
-    <ClCompile Include="IAlgorithm.cpp" />
     <ClCompile Include="InsertionSortStrategy.cpp" />
     <ClCompile Include="MergeSortStrategy.cpp" />
     <ClCompile Include="QuickSortStrategy.cpp" />

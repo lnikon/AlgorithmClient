@@ -1,15 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
-/*
- * File:   AlgorithmClient.cpp
- * Author: vahag
- *
- * Created on September 21, 2017, 9:50 PM
- */
 #include "stdafx.h"
 
 #include <iostream>
@@ -18,30 +6,52 @@
 
 AlgorithmClient::AlgorithmClient()
 {
-    m_sortStrategy = nullptr;
+	m_sortStrategy = nullptr;
 }
 
-AlgorithmClient::AlgorithmClient(const AlgorithmClient& orig)
+AlgorithmClient::AlgorithmClient(const AlgorithmClient& rClient)
 {
+	m_sortStrategy = rClient.GetSortStrategy();
 }
 
 AlgorithmClient::~AlgorithmClient()
 {
-    delete m_sortStrategy;
+	delete m_sortStrategy;
 }
 
 void AlgorithmClient::SetSortStrategy(ISortStrategy* pSortStrategy)
 {
-    m_sortStrategy = pSortStrategy;
+	if (pSortStrategy != nullptr)
+	{
+		m_sortStrategy = pSortStrategy;
+	}
 }
 
-const ISortStrategy* AlgorithmClient::GetSortStrategy() const
+ISortStrategy* AlgorithmClient::GetSortStrategy() const
 {
-    return m_sortStrategy;
+	return m_sortStrategy;
+}
+
+void AlgorithmClient::SetSearchStrategy(ISearchStrategy * pSearchStrategy)
+{
+	if (pSearchStrategy != nullptr)
+	{
+		m_searchStrategy = pSearchStrategy;
+	}
+}
+
+ISearchStrategy * AlgorithmClient::GetSearchStrategy() const
+{
+	return m_searchStrategy;
 }
 
 void AlgorithmClient::performSort(int* pArray, const int& rSize)
 {
-    m_sortStrategy->sort(pArray, rSize);
+	m_sortStrategy->sort(pArray, rSize);
+}
+
+int AlgorithmClient::performSearch(int * pArray, const int & rSize, const int & rKey)
+{
+	return m_searchStrategy->search(pArray, rSize, rKey);
 }
 
