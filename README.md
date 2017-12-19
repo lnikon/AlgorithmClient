@@ -24,6 +24,7 @@ This family implements some of popular sorting algorithms.</p>
 <p>At second, we’ve interface <code>ISearchAlgorithm</code>.<br>
 <code>BinarySearch</code> implements this interface.</p>
 <h1><a id="Usage_example_29"></a>Usage example</h1>
+<p><em>Tested under Visual Studio 2017</em></p>
 <ul>
 <li>
 <p>At first, include header file, that allows to use our <em>Control Point</em>.<br>
