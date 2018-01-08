@@ -1,16 +1,12 @@
 #include "stdafx.h"
 #include "BinarySearch.h"
 
-BinarySearch::BinarySearch()
-{
-}
-
-int BinarySearch::search(const int * pArray, const int & rSize, const int & rKey)
+int BinarySearch::search(const int *pArray, const int &rSize, const int &rKey)
 {
 	return search(pArray, 0, rSize, rKey);
 }
 
-int BinarySearch::search(const int * pArray, const int & rLeft, const int & rRight, const int & rKey)
+int BinarySearch::search(const int *pArray, const int &rLeft, const int &rRight, const int &rKey)
 {
 	if (rRight >= rLeft)
 	{

@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="AlgorithmClient" Collapsed="true">
+    <Position X="12.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEQAAAAAAAAAAAACAAQAIAAAAAACAAAAIAAQAgABAA=</HashCode>
+      <FileName>AlgorithmClient.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BinarySearch" Collapsed="true">
+    <Position X="0.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>BinarySearch.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BubbleSortStrategy" Collapsed="true">
+    <Position X="5.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>BubbleSortStrategy.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HeapSortStrategy" Collapsed="true">
+    <Position X="9.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAACAEAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>HeapSortStrategy.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IAlgorithm" Collapsed="true">
+    <Position X="14" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IAlgorithm.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InsertionSortStrategy" Collapsed="true">
+    <Position X="0.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>InsertionSortStrategy.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ISearchStrategy" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>ISearchStrategy.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ISortingAlgorithm" Collapsed="true">
+    <Position X="12.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ISortingAlgorithm.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ISortStrategy" Collapsed="true">
+    <Position X="5.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAAAAAAAAEQAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ISortStrategy.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MergeSortStrategy" Collapsed="true">
+    <Position X="3" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAAAAAAAAEAAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>MergeSortStrategy.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QuickSortStrategy" Collapsed="true">
+    <Position X="7.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>QuickSortStrategy.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Util" Collapsed="true">
+    <Position X="14" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAgAAAAAAAAAAAAAEAAAAAAAAAAAAOAAAA=</HashCode>
+      <FileName>Util.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
